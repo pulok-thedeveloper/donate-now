@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lobster&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family:'Poppins', sans-serif;
+}
+
+.btn{
+    font-family:'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgb(0, 196, 104);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.fotem{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 1rem;
+    padding: 0 25%;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+/* Header Section */
+#header{
+    width: 100%;
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header .gradient-bg{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.9), rgba(0,0,0,0.3));
+    padding: 185px 0;
+    color: #fff;
+}
+
+#header .gradient-bg h1{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+#header .gradient-bg p{
+    padding: 0 250px;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Donate Today Section */
+.amount{
+    list-style-type: none;
+    display: flex;
+    padding: 0 23.4%;
+    margin-bottom: 40px;
+}
+
+.amount li{
+    background-color: rgb(248, 248, 248);
+    width: 120px;
+    padding: 40px 0;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+    border-radius: 5px;
+}
+
+#active{
+    background-color: rgba(0, 196, 105, 0.144);
+    color: rgb(0, 173, 92);
+    border: 2.5px solid rgb(0, 173, 92);
+}
+
+#other-amount{
+    width: 45%;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(122, 122, 122);
+    margin-bottom: 50px;
+}
+
+/* Donate Plan Section */
+.dp-container{
+    display: flex;
+    text-align: left;
+    margin: 0px 10%;
+}
+
+.dp-container-box{
+    width: 28%;
+    margin-left: 22px;
+    padding: 50px 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+.dp-container-box-icon{
+    width: 55px;
+}
+
+.dp-container-box h3{
+    margin: 25px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.dp-container-box p{
+    color: rgb(97, 97, 97);
+    font-size: 0.9rem;
+}
+
+#one{
+    background-color: #eef6f7;
+}
+
+#two{
+    background-color: #ffefef
+}
+
+#three{
+    background-color: #fff4d6;
+}
+
+
+/* Blogs Section */
+#blogs{
+    background-color: #d9d9d9;
+    padding: 50px 0 70px 0;
+}
+
+.blogs-container{
+    display: flex;
+    margin: 0 8%;
+}
+
+.blogs-container-box{
+    width: 350px;
+    margin-left: 20px;
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+.blogs-container-box img{
+    width: 100%;
+    height: 55%;
+}
+
+.blogs-container-box h3{
+    margin: 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.blogs-container-box p{
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.blogs-container-box a{
+    text-decoration: none;
+    background-color: #00c468;
+    padding: 6px;
+    font-size: 0.8rem;
+    color: #000;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+/* Updates Section */
+#updates .container{
+    background-color: #daf6e9;
+    margin: 0 25%;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+#email{
+    width: 250px;
+    border: 1px solid #00c468;
+    outline: 0;
+    font-family:'Poppins', sans-serif;
+    background-color: #d9d9d9;
+    padding: 12px;
+    border-radius: 5px 0 0 5px;
+}
+
+#subscribe{
+    border-radius: 0 5px 5px 0;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    margin-left: -5px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid #00c468;
+}
+
+/* Footer Section */
+footer{
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0b0d17;
+    color: rgb(199, 199, 199);
+    font-size: 0.8rem;
+}
+
+footer h2{
+    color: #00c468;
+    font-family: 'Lobster', cursive;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
